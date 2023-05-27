@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "dl" {
 
 
 resource "aws_s3_bucket" "stream" {
-  bucket = "igti-ney-streaming-bucket"
+  bucket = "igti-paulo-streaming-bucket"
   acl    = "private"
 
   tags = {
