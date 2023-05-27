@@ -7,7 +7,7 @@ variable "lambda_function_name" {
 }
 
 variable "key_pair_name" {
-  default = "ney-igti-teste"
+  default = "paulo-igti-teste"
 }
 
 variable "airflow_subnet_id" {
@@ -15,5 +15,5 @@ variable "airflow_subnet_id" {
 }
 
 variable "vpc_id" {
-  default = "vpc-d724b4bc"
+  default = "vpc-034d94229313e3e77"
 }
