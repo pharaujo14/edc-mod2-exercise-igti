@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "dl" {
-  bucket = "datalake-paulo-igti-edc-tf"
+  bucket = "datalake-paulo-igti-edc-tf-teste"
   acl    = "private"
 
   tags = {
